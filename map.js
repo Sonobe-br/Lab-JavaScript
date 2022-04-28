@@ -1,8 +1,7 @@
 const numbers = [1, 2, 3, 4];
 
-console.log(numbers.map (item => { 
+const doubleNumbers = numbers.map (item => item * 2
 
-    return item * 2
+);
 
-}));
-
+console.log(doubleNumbers);

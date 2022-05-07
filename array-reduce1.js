@@ -13,7 +13,7 @@ const phasesScore = [
 
 ]
 
-const danielScore = phasesScore ((accumulator, phaseScore) => {
+const danielScore = phasesScore.reduce ((accumulator, phaseScore) => {
 
     if (phaseScore.name === 'Daniel Sonobe') {
 

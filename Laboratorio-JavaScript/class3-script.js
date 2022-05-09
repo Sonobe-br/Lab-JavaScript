@@ -1,6 +1,6 @@
 /* Relógio */
 let guardaDistancia = 42.195;
-let guardaTempoPercorrido = 2.50; /* horas */
+let guardaTempoPercorrido = 2.55; /* horas */
 
 let novoRecordePessoal = 3.00; /* horas */
 
